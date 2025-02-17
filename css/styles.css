@@ -1,0 +1,53 @@
+/* General Styles */
+/* body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+} */
+
+/* Hero Section */
+.hero-section {
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+
+.hero-section .btn-primary {
+    background-color: #0056b3;
+    border: none;
+}
+
+.hero-section .btn-primary:hover {
+    background-color: #004494;
+}
+
+/* Services Section */
+#services h3 {
+    margin-top: 20px;
+}
+
+#services ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#services ul li {
+    background: url('../images/checkmark.png') no-repeat left center;
+    background-size: 20px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+/* Team Section */
+#team img {
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
